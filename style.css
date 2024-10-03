@@ -1,0 +1,138 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+header nav {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hero {
+    background: url('pupils.jpeg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+.stat-item h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#courses {
+    padding: 50px;
+    text-align: center;
+}
+
+.course {
+    display: flex;
+    margin: 20px 0;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.course img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.course-info {
+    text-align: left;
+}
+
+.course-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
